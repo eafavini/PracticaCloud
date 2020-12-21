@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAM E} !-d
+RewriteCond %{REQUEST_F/LENAME} !-f
+RewriteRule . index.php [L]
